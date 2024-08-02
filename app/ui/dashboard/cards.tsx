@@ -18,8 +18,8 @@ const iconMap = {
 
 export default async function CardWrapper() {
 
-  console.log("CardWrapper...");
-  await new Promise((resolve) => setTimeout(resolve, 3000));
+  // console.log("CardWrapper...");
+  // await new Promise((resolve) => setTimeout(resolve, 3000));
 
   const {
     numberOfCustomers,
@@ -28,7 +28,7 @@ export default async function CardWrapper() {
     totalPendingInvoices,
   } = await fetchCardData();
 
-  console.log("...fetchLatestInvoices after 3 seconds.");
+  // console.log("...fetchLatestInvoices after 3 seconds.");
 
   return (
     <>
